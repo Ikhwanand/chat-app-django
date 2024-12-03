@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    background-color: #f4f7f6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: .55rem;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eaeaea;
+    padding: 15px;
+    border-top-left-radius: .55rem;
+    border-top-right-radius: .55rem;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.nav-tabs .nav-link {
+    color: #495057;
+    border: 1px solid transparent;
+    border-top-left-radius: .55rem;
+    border-top-right-radius: .55rem;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #e9ecef;
+    border-color: #e9ecef #e9ecef #fff;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #fff;
+    border-color: #eaeaea #eaeaea #fff;
+    color: #007bff;
+}
+
+.alert {
+    margin-bottom: 15px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 12px 0;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.navbar-nav .nav-link {
+    color: #65676b;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 16px;
+    transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0a7cff;
+}
+
+.navbar-nav .nav-link.active {
+    color: #0a7cff;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #fff;
+    padding: 24px 0;
+    border-top: 1px solid #e4e4e4;
+}
+
+.footer p {
+    color: #65676b;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer a {
+    color: #0a7cff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer a:hover {
+    color: #0064d1;
+    text-decoration: underline;
+}
+
+/* Form Styles */
+.form-label {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-check-input {
+    margin-right: 10px;
+}

@@ -1,0 +1,87 @@
+# Python and Django specific
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env/
+.venv/
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Static and Media Files
+staticfiles/
+mediafiles/
+
+# Django migration files (optional - depends on your workflow)
+**/migrations/**
+!**/migrations/__init__.py
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+local_settings.py
+
+# Secret Key
+secret_key.txt
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backup files
+*.bak
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Frontend build directories
+dist/
+build/
+
+# Miscellaneous
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+media/
+
+djangochat/__pycache__/
+chat/__pycache__/
+chat/migrations/
